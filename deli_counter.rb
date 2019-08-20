@@ -18,10 +18,14 @@ end
 
 def take_a_number2
   counter = 0
-  
+  counter +=1
   put "Welcome! You are customer number #{counter} "
   
 end
+
+take_a_number2
+take_a_number2
+take_a_number2
 
 def now_serving(katz_deli)
   if katz_deli.empty?
