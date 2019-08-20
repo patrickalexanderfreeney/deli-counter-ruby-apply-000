@@ -20,7 +20,7 @@ def take_a_number2
   counter = 0
   counter +=1
   puts "Welcome! You are customer number #{counter} "
-  
+  counter +=1
 end
 
 take_a_number2
