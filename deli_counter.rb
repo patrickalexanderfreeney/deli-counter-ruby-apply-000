@@ -16,6 +16,13 @@ def take_a_number(katz_deli,name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
+def take_a_number2
+  counter = 0
+  
+  put "Welcome! You are customer number #{counter} "
+  counter +=1
+end
+
 def now_serving(katz_deli)
   if katz_deli.empty?
     puts "There is nobody waiting to be served!"
@@ -24,4 +31,5 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
+
 
