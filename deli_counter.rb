@@ -17,7 +17,7 @@ def take_a_number(katz_deli,name)
 end
   $counter = 0
 def take_a_number2
-  $counter +=1s
+  $counter +=1
   puts "Welcome! You are customer number #{counter}"
 end
 
