@@ -15,12 +15,10 @@ def take_a_number(katz_deli,name)
   katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
-
-def take_a_number2
   counter = 0
+def take_a_number2
   counter +=1
-  puts "Welcome! You are customer number #{counter} "
-  counter +=1
+  puts "Welcome! You are customer number #{counter}"
 end
 
 take_a_number2
