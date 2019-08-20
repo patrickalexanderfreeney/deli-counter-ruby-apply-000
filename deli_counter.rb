@@ -20,7 +20,7 @@ def take_a_number2
   counter = 0
   
   put "Welcome! You are customer number #{counter} "
-  counter +=1
+  
 end
 
 def now_serving(katz_deli)
